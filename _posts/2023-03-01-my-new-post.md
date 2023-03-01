@@ -10,7 +10,6 @@ npm install --unsafe-perm=true --allow-root 安装依赖(以root身份)
 或者yarn install
 或者npm i -g yarn
 打包
-![图片.png](https://cdn.nlark.com/yuque/0/2022/png/296773/1667808255040-9bccaacb-b375-48f2-8605-c0dee4879b69.png#averageHue=%23caccce&clientId=u09d3e255-f7cc-4&from=paste&height=371&id=ue14e1c5b&name=%E5%9B%BE%E7%89%87.png&originHeight=371&originWidth=481&originalType=binary&ratio=1&rotation=0&showTitle=false&size=75605&status=done&style=none&taskId=u0986ac0f-4cf5-4fda-9076-3d16ac52e38&title=&width=481)
 如果使用了[jsencrypt](https://github.com/travist/jsencrypt)这个依赖打包报错ERROR in ./node_modules/jsencrypt/lib/index.js 1:0-40，webpack配置里加这个
 ```
 module.exports = {
