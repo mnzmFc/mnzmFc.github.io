@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source "https://mirrors.tuna.tsinghua.edu.cn/rubygems"
 
 gem "jekyll-theme-chirpy", "~> 5.5", ">= 5.5.2"
 
@@ -26,3 +26,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 if RUBY_PLATFORM =~ /linux-musl/
   gem "jekyll-sass-converter", "~> 2.0"
 end
+
+gem 'jekyll-compose', group: [:jekyll_plugins]
